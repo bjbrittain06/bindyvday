@@ -1,23 +1,26 @@
-import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
+import Head from 'next/head';
+import Header from '@components/Header';
+import Footer from '@components/Footer';
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Valentines Day</title>
+        <title>Valentine's Day</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
+      <main className="main-content">
+        <Header title="Welcome to my Valentine's Day page!" />
+        <div className="audio-player">
+          <audio controls>
+            <source src="/path-to-your-audio-file.mp3" type="audio/mp3" />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
       </main>
 
       <Footer />
     </div>
-  )
+  );
 }
