@@ -11,10 +11,10 @@ export default function Home() {
       </Head>
 
       <main className="main-content">
-        <Header title="Hope you like the song!" />
+        <Header title="Welcome to my Valentine's Day page!" />
         <div className="audio-player">
           <audio controls>
-            <source src="/public/CandC.mp3" type="audio/mp3" />
+            <source src="/CandC.mp3" type="audio/mp3" />
             Your browser does not support the audio element.
           </audio>
         </div>
