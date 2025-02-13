@@ -14,7 +14,7 @@ export default function Home() {
         <Header title="Hope you like the song!" />
         <div className="audio-player">
           <audio controls>
-            <source src="/path-to-your-audio-file.mp3" type="audio/mp3" />
+            <source src="/public/CandC.mp3" type="audio/mp3" />
             Your browser does not support the audio element.
           </audio>
         </div>
