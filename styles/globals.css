@@ -33,51 +33,11 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-.container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  justify-content: space-between;
-  background-image: url('/public/cindyandme.jpg'); /* Replace with your image */
+  background-image: url('/cindyandme.jpg'); /* Corrected the image path */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  color: white; /* Set text color to white to contrast against the background */
-}
-
-.main-content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 20px;
-}
-
-.audio-player {
-  margin-top: 20px;
-}
-
-audio {
-  width: 100%;
-  max-width: 400px; /* Adjust to your desired width */
-  background-color: rgba(0, 0, 0, 0.5); /* Optional: adds a background to the player */
-  border-radius: 5px;
-  padding: 10px;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  justify-content: space-between;
-  background-image: url('/images/background.jpg'); /* Replace with your image */
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  color: white; /* Set text color to white */
+  color: red; /* Set text color to white */
 }
 
 .main-content {
@@ -103,4 +63,5 @@ audio {
   padding: 10px;
   display: block;
   margin: 0 auto;
+}
 }
