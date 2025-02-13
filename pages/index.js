@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main className="main-content">
-        <Header title="Welcome to my Valentine's Day page!" />
+        <Header title="Hope you like the song!" />
         <div className="audio-player">
           <audio controls>
             <source src="/path-to-your-audio-file.mp3" type="audio/mp3" />
