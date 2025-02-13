@@ -39,7 +39,7 @@ code {
   flex-direction: column;
   min-height: 100vh;
   justify-content: space-between;
-  background-image: url('https://ibb.co/d073Qzvm'); /* Replace with your image */
+  background-image: url('/cindyandme.jpg'); /* Replace with your image */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
