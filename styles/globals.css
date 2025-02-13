@@ -33,7 +33,7 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url('/cindyandme.jpg'); /* Corrected the image path */
+  background-image: url('/public/cindyandme.jpg'); /* Corrected the image path */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
